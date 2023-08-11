@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libretto</title>
+    <link rel="icon" href="images/logo-no-bg.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.16.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm py-1" style="background-color: #e3f2fd">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logo-no-bg.png"
+            class="img-fluid"
+            alt="Responsive image"
+            height="120"
+            width="150"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#reservation">Reservation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#event-specials"
+                    >Events and Specials</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home-section" id="home">
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-pause="false"
+        data-bs-interval="2000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/home-section.jpg"
+              class="d-block w-100"
+              alt="Image 1"
+              height="530"
+            />
+            <div class="carousel-caption">
+              <h3>Exquisite Dining Experience</h3>
+              <p>
+                Indulge in a culinary journey of flavors and textures that will
+                leave your taste buds delighted.
+              </p>
+              <a href="#menu" class="btn btn-primary btn-caption">
+                View Menu
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/pizza.jpg"
+              class="d-block w-100"
+              alt="Image 2"
+              height="530"
+            />
+            <div class="carousel-caption">
+              <h3>Elegant Ambiance</h3>
+              <p>
+                Our restaurant offers a cozy and elegant atmosphere, perfect for
+                romantic dinners and celebrations.
+              </p>
+
+              <a href="#menu" class="btn btn-primary btn-caption">
+                View Menu
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/coffee.jpg"
+              class="d-block w-100"
+              alt="Image 3"
+              height="530"
+            />
+            <div class="carousel-caption">
+              <h3>Seasonal Ingredients</h3>
+              <p>
+                We use only the freshest seasonal ingredients to create dishes
+                that are bursting with flavor and creativity.
+              </p>
+              <a href="#menu" class="btn btn-primary btn-caption">
+                View Menu
+              </a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="about-us-section py-5" id="about-us">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-heading mb-4 text-center">About Us</h2>
+          <div class="col-md-6">
+            <img
+              src="images/about.jpg"
+              alt="About Us Image"
+              class="img-fluid rounded"
+              style="height: 300px"
+            />
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <p>
+              We are a family-owned restaurant that takes pride in providing our
+              customers with the best dining experience. Our team of talented
+              chefs prepares each dish with love and passion, using only the
+              freshest and finest ingredients.
+            </p>
+            <p>
+              With a warm and inviting ambiance, we strive to create a memorable
+              dining atmosphere for our guests. Whether you're looking for a
+              romantic dinner for two or a place to celebrate with family and
+              friends, our restaurant is the perfect choice.
+            </p>
+            <p>
+              We value our customers' satisfaction and are committed to
+              delivering exceptional service. Come and join us for a delightful
+              culinary journey and discover the flavors that will leave you
+              craving for more.
+            </p>
+            <p class="text-center mt-4">
+              <a href="#reservation" class="btn btn-primary btn-md"
+                >Reserve a Table</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-menu bg-section py-3" id="menu">
+      <div class="container mt-5">
+        <h1 class="text-center mb-5">Our Menu</h1>
+        <div class="menu-section">
+          <ul class="nav nav-tabs" id="myTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="breakfast-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#breakfast"
+                type="button"
+                role="tab"
+                aria-controls="breakfast"
+                aria-selected="true"
+              >
+                Breakfast
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="lunch-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#lunch"
+                type="button"
+                role="tab"
+                aria-controls="lunch"
+                aria-selected="false"
+              >
+                Lunch
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="dinner-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#dinner"
+                type="button"
+                role="tab"
+                aria-controls="dinner"
+                aria-selected="false"
+              >
+                Dinner
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="dessert-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#dessert"
+                type="button"
+                role="tab"
+                aria-controls="dessert"
+                aria-selected="false"
+              >
+                Dessert
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content mt-3" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="breakfast"
+              role="tabpanel"
+              aria-labelledby="breakfast-tab"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Scrambled Eggs</h3>
+                    <p>Fluffy scrambled eggs served with toast.</p>
+                    <p>Price: $5.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Pancakes</h3>
+                    <p>Stack of delicious pancakes served with maple syrup.</p>
+                    <p>Price: $6.49</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Avocado Toast</h3>
+                    <p>
+                      Whole-grain toast topped with mashed avocado and
+                      seasonings.
+                    </p>
+                    <p>Price: $7.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Fruit Parfait</h3>
+                    <p>Layers of fresh fruit and yogurt topped with granola.</p>
+                    <p>Price: $5.49</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="lunch"
+              role="tabpanel"
+              aria-labelledby="lunch-tab"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Grilled Chicken Sandwich</h3>
+                    <p>
+                      Grilled chicken breast served in a bun with lettuce and
+                      tomatoes.
+                    </p>
+                    <p>Price: $8.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Caesar Salad</h3>
+                    <p>Fresh romaine lettuce, croutons, and parmesan cheese.</p>
+                    <p>Price: $7.49</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Classic Cheeseburger</h3>
+                    <p>
+                      Juicy beef patty with melted cheese, served with fries.
+                    </p>
+                    <p>Price: $9.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Margherita Pizza</h3>
+                    <p>
+                      Thin crust pizza with tomato, mozzarella, and fresh basil.
+                    </p>
+                    <p>Price: $11.49</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="dinner"
+              role="tabpanel"
+              aria-labelledby="dinner-tab"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Grilled Steak</h3>
+                    <p>
+                      Juicy grilled steak served with mashed potatoes and
+                      vegetables.
+                    </p>
+                    <p>Price: $15.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Salmon Fillet</h3>
+                    <p>Fresh salmon fillet served with lemon butter sauce.</p>
+                    <p>Price: $13.49</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Vegetable Stir-Fry</h3>
+                    <p>Assorted vegetables stir-fried in a savory sauce.</p>
+                    <p>Price: $10.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Lobster Tail</h3>
+                    <p>Butter-poached lobster tail served with drawn butter.</p>
+                    <p>Price: $19.99</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="dessert"
+              role="tabpanel"
+              aria-labelledby="dessert-tab"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Chocolate Brownie</h3>
+                    <p>
+                      Decadent chocolate brownie topped with vanilla ice cream.
+                    </p>
+                    <p>Price: $4.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Fruit Parfait</h3>
+                    <p>Layers of fresh fruit and yogurt topped with granola.</p>
+                    <p>Price: $5.49</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Tiramisu</h3>
+                    <p>
+                      Classic Italian dessert made with layers of coffee-soaked
+                      ladyfingers and mascarpone cheese.
+                    </p>
+                    <p>Price: $6.99</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-item">
+                    <h3>Molten Lava Cake</h3>
+                    <p>
+                      Warm chocolate cake with a gooey molten center, served
+                      with vanilla ice cream.
+                    </p>
+                    <p>Price: $5.99</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="reservation">
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Make a Reservation</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form class="reservation-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="date" class="form-label">Date</label>
+                  <input type="date" class="form-control" id="date" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="time" class="form-label">Time</label>
+                  <input type="time" class="form-control" id="time" required />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="guests" class="form-label">Number of Guests</label>
+                <select class="form-control" id="guests" name="guests">
+                  <option selected>-- Select --</option>
+                  <option value="1">1 guest</option>
+                  <option value="2">2 guests</option>
+                  <option value="3">3 guests</option>
+                  <option value="4">4 guests</option>
+                  <option value="5">5 guests</option>
+                  <option value="6">6 guest</option>
+                  <option value="7">7 guests</option>
+                  <option value="8">8 guests</option>
+                  <option value="9">9 guests</option>
+                  <option value="10">10 guests</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="specialRequests" class="form-label"
+                  >Special Requests</label
+                >
+                <textarea
+                  class="form-control"
+                  id="specialRequests"
+                  rows="2"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="event-specials" id="event-specials">
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Events</h2>
+        <div class="events-section">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <img
+                  src="images/live-music.jpg"
+                  class="card-img-top"
+                  alt="Event 1"
+                  height="300"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Live Music Night</h5>
+                  <p class="card-text">
+                    Join us for a night of live music and entertainment. Enjoy
+                    great food and drinks while listening to talented local
+                    artists.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Date: Sep 15, 2023</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <img
+                  src="images/world-food.jpg"
+                  class="card-img-top"
+                  alt="Event 2"
+                  height="300"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">International Flavors Festival</h5>
+                  <p class="card-text">
+                    Experience flavors, aromas, and cultural delights as we
+                    showcase a special menu inspired by cuisines from different
+                    corners of the globe.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Date: Sep 05, 2023</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="text-center mb-4">Specials</h2>
+        <div class="specials-section">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <img
+                  src="images/special-pasta.jpg"
+                  class="card-img-top"
+                  alt="Special 1"
+                  height="300"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Chef's Special Pasta</h5>
+                  <p class="card-text">
+                    Indulge in our chef's special pasta creation of the month.
+                    Made with the freshest ingredients and bursting with flavor.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Price: $14.99</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <img
+                  src="images/sea-food.jpg"
+                  class="card-img-top"
+                  alt="Special 2"
+                  height="300"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Seafood Delight</h5>
+                  <p class="card-text">
+                    Savor the taste of the ocean with our seafood platter
+                    featuring a variety of succulent seafood options.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Price: $19.99</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="gallery-section">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="gallery-item">
+                <img src="images/gallery/image1.jpg" alt="Image 1" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-item">
+                <img src="images/gallery/image2-.jpg" alt="Image 2" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-item">
+                <img src="images/gallery/image3-.jpg" alt="Image 3" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-item">
+                <img src="images/gallery/image4.jpg" alt="Image 4" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-item">
+                <img src="images/gallery/image5.jpg" alt="Image 5" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-item">
+                <img src="images/gallery/image6.jpg" alt="Image 6" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="contact-section">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Visit Us</h4>
+              <p>123 Main Street, Toronto, ON M5V 2J4</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Information</h4>
+              <p>Email: info@Libretto-example.com</p>
+              <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Open Hours</h4>
+              <ul class="list-unstyled">
+                <li>Monday: 11:00 AM - 9:00 PM</li>
+                <li>Tuesday: 11:00 AM - 9:00 PM</li>
+                <li>Wednesday: 11:00 AM - 9:00 PM</li>
+                <li>Thursday: 11:00 AM - 9:00 PM</li>
+                <li>Friday: 11:00 AM - 10:00 PM</li>
+                <li>Saturday: 12:00 PM - 10:00 PM</li>
+                <li>Sunday: Closed</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-12">
+            <div class="col-md-6">
+              <h4>Direction</h4>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  style="width: 100%; height: 300px"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.6221059461185!2d-79.38318468553384!3d43.65322657538206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sCN%20Tower!5e0!3m2!1sen!2sca!4v1670139495696!5m2!1sen!2sca"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h4>Send us a Message</h4>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="message-name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="message-email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-dark py-4" style="background-color: #e3f2fd">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-md-start">
+            <a href="#" class="social-icon social-icon-lg">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" class="social-icon social-icon-lg">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#" class="social-icon social-icon-lg">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#" class="social-icon social-icon-lg">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+          <div class="col-md-6 text-md">
+            &copy; 2023 Libretto Restaurant. All rights reserved. |
+            <a href="privacy-policy.html" class="text-dark">Privacy Policy</a> |
+            <a href="terms-of-service.html" class="text-dark"
+              >Terms of Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+      * {
+        color: #f5a623 !important;
+      }
+
+   
+      .btn-primary {
+        background-color: #fff;
+        color: #f5a623;
+        font-weight: bold;
+        padding: 12px 30px;
+        border: 1px solid #f5a623;
+        border-radius: 30px;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      /* Default styles for .btn-primary:hover */
+      .btn-primary:hover {
+        background-color: #f5e6cd;
+      }
+
+      .bg-menu {
+        margin: auto 50px;
+      }
+
+      .menu-section {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      .menu-item {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .menu-item h3 {
+        margin-top: 0;
+      }
+
+      .menu-item p {
+        margin-bottom: 0;
+      }
+
+      .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        max-width: 30%; /* Adjust the max-width as needed */
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .carousel-inner img {
+        object-fit: cover;
+        max-height: 100%;
+        width: 100%;
+      }
+
+      .reservation-section {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      .reservation-form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .events-section {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      .specials-section {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      .gallery-section {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      .gallery-item {
+        margin-bottom: 20px;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 273px;
+        border-radius: 10px;
+      }
+      .contact-section {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+
+      a:visited {
+        text-decoration: none;
+      }
